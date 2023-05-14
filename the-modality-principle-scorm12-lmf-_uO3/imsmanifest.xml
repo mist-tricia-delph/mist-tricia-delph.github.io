@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<manifest identifier="loBvpSQ2xyQudUH8CRFzXBWqc7eGhyijlmf-_uO3" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>The Modality Principle</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>The Modality Principle</title>
+        <adlcp:datafromlms>eyJjcHYiOiJsbWYtX3VPMyIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/DMSans-BoldItalic.woff" />
+<file href="scormcontent/lib/fonts/DMSans-Bold.woff" />
+<file href="scormcontent/lib/fonts/DMSans-Italic.woff" />
+<file href="scormcontent/lib/fonts/DMSans-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Oswald-Bold.woff" />
+<file href="scormcontent/lib/fonts/Oswald-Regular.woff" />
+<file href="scormcontent/lib/fonts/Oswald-Light.woff" />
+<file href="scormcontent/assets/uf3pBIVMB8SdQPMM_small.png" />
+<file href="scormcontent/assets/J5t5GV1F4lb5Mn83_RRcHLx4vruWk27Or.jpg" />
+<file href="scormcontent/assets/qZhSfoZzzTztT6W9_yWa8P1CjcRKyx9gT.png" />
+<file href="scormcontent/assets/ZFKnCgGhhBhdSuDo_fwgn2UMSO2X-w7aU.jpg" />
+<file href="scormcontent/assets/9H7L_P5l7BCggk_e_22_wfh.jpg" />
+<file href="scormcontent/assets/NdTlq2En7aT-Iyoq_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
